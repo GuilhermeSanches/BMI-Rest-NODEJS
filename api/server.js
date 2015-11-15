@@ -11,6 +11,10 @@ app.use(bodyParser.json());// usado para poder usar o metodo POST
 app.use(bodyParser.urlencoded({ extended: true }));//no postmen ao usar post ao invez de usar form-data use form-urlencoded
 
 
+app.get('/', function(req, res){
+    res.send("running in localhost:3000");
+});
+
 app.post('/api/bmi', function(req, res){        //rota para nosso BMI
     var altura = req.body.height;    //aqui pegamos o parametro altura do CORPO da mensagem da url
     var peso = req.body.weight;     //aqui pegamos o parametro peso do CORPO da mensagem da url

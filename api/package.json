@@ -1,12 +1,12 @@
 {
-  "name": "BMI-Rest - NODEJS",
+  "name": "BMI-Rest-NODEJS",
   "version": "1.0.0",
   "description": "BMI rest-NodeJS",
-  "main": "api/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Guilherme Sanches",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
