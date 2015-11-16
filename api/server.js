@@ -29,4 +29,18 @@ app.post('/api/bmi', function(req, res){        //rota para nosso BMI
     
 });
 
+app.get('/api/bmi/height/:height/weight/:weight', function(req, res){        //rota para nosso BMI
+    var altura = req.params.height;    
+    var peso = req.params.weight;     
+           
+    var resp = BMIService.getIndex(peso, altura); //variavel para nossa resposta vinda do retorno do serviço
+    var descricao = BMIService.getDescription(resp); //variavel para a descricao vinda do serviço
+    
+    res.json({              // aqui esta nosso JSON de retorno do post no formato CHAVE->VALOR
+        bmi: resp,
+        descricao: descricao
+    });
+    
+});
+
 app.listen(process.env.port || 3000); // NOSSA PORTA DO SERVIDOR EM LOCALHOST
