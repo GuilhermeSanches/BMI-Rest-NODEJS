@@ -14,8 +14,9 @@ após download, sigam os passos via command-line abaixo para dar start na aplica
 
 -> npm start
 
-url -> POST -> /api/bmi -> insere novo calculo de BMI,
-url -> GET  -> /api/bmi -> lista todos os calculos de BMI 
+=> url -> POST -> /api/bmi -> insere novo calculo de BMI
+
+=> url -> GET  -> /api/bmi -> lista todos os calculos de BMI 
 
 
 
