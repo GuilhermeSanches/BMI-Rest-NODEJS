@@ -14,17 +14,10 @@ após download, sigam os passos via command-line abaixo para dar start na aplica
 
 -> npm start
 
-url -> POST -> localhost:3000/api/bmi (parametro weight e height),
+url -> POST -> /api/bmi -> insere novo calculo de BMI,
+url -> GET  -> /api/bmi -> lista todos os calculos de BMI 
 
 
-******app********
-abra index.html com navegador ou 
-
-via command-line
-
--> cd app
-
-->http-server
 
 
 

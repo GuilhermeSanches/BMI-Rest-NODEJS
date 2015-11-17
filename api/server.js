@@ -29,7 +29,6 @@ app.get('/', function(req,res){
 });
 app.use('/', index);
 app.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
-  
   console.log("Chat server listening at localhost:8080");
 });
 
