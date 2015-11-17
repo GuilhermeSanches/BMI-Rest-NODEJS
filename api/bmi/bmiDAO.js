@@ -1,4 +1,4 @@
-var BMIService = getmodule('./services/BMIService');
+var BMIService = require('../services/BMIService');
 
 
 exports.read = function(req, res) {    

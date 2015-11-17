@@ -12,6 +12,9 @@
     "express": "^4.13.3",
     "cors": "^2.7.1",
     "body-parser": "^1.14.1",
-    "http-server": "^0.8.5"  
+    "http-server": "^0.8.5",
+     "express-myconnection": "^1.0.4",
+    "getmodule": "0.0.3",
+    "mysql": "^2.6.1"
   }
 }
